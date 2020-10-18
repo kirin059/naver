@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+
+#header-center{
+  margin:0 auto;
+  padding: 0 30px;
+  position: relative;
+  height: 100%;
+  width: 1130px;
+  height: 100%;
+  }
+
+
+  /* 자식선택자 (#header-center 와 h1 은 부모&자식 관계이다)
+     이럴 경우에는 > 기호를 통해 찾아준다
+     (부모태그) > (자식태그)
+  */
+  #header-search h1{
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-image: url(./sp_main_b46ce0.png);
+    background-size: 440px 410px;
+    background-position: 0 -161px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+
+  #header-search fieldset{
+    width: 460px;
+    height: 40px;
+    padding: 7px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid #19ce60;
+    border-radius: 2px;
+    vertical-align: middle;
+  }
+
+  #header-search fieldset input{
+    border: none;
+    margin:0;
+    padding:0;
+    outline: none;
+  }
